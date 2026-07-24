@@ -29,7 +29,7 @@ type KubeHealthSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of KubeHealth. Edit kubehealth_types.go to remove/update
-	//Foo string `json:"foo,omitempty"`
+	
 
 	// Namespace to monitor
 	Namespace string `json:"namespace"`
