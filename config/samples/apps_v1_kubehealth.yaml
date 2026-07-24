@@ -1,0 +1,11 @@
+apiVersion: apps.abhishek.dev/v1
+kind: KubeHealth
+metadata:
+  labels:
+    app.kubernetes.io/name: kubehealth-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: kubehealth-sample
+
+spec:
+  namespace: crt-208020-dev
+  restartThreshold: 3
